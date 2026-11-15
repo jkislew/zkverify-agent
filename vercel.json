@@ -1,0 +1,1 @@
+{"functions":{"api/agent.js":{"maxDuration":60}},"rewrites":[{"destination":"/api/health","source":"/"}]}

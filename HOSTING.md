@@ -185,3 +185,14 @@ user registers agent with the `.deno.dev/agent` URL → preflight →
 Rotate Secret via Secure Vault → Torque sets the secret in both places →
 Practice mode check → live rounds (nightly 17:30–03:30 WIB until
 2026-11-21).
+
+## ADDENDUM 2026-11-15 23:17 WIB — Deno Deploy is CLOSED to new signups
+
+Sign-in with GitHub succeeded, but Deno Deploy no longer accepts new
+organizations ("Deno Deploy is winding down and will shut down in April 2027.
+We are no longer taking on new customers"). No app could be created. The Deno
+adapter (main.ts, deno.json, DEPLOY.md) stays in the repo as a working artifact
+but cannot be deployed on a fresh account. New primary host: **Vercel** (Hobby
+free tier, GitHub OAuth, serverless — scales to zero with sub-second cold
+starts, so the 60-second deadline is safe). Fallback: Render free + keep-warm
+pinger.
